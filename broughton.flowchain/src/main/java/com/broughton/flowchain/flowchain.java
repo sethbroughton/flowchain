@@ -31,7 +31,6 @@ public class flowchain {
 			if(!previousBlock.hash.equals(currentBlock.previousHash)) {
 				return false;	
 			}
-
 		}
 		return true;
 	}
