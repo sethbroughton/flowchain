@@ -1,6 +1,7 @@
 package com.broughton.flowchain;
 import java.security.MessageDigest;
 
+
 public class StringUtil {
 	public static String applySha256(String input) {
 		try {

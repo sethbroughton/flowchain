@@ -2,7 +2,7 @@ package com.broughton.flowchain;
 import java.util.Date;
 
 
-public class block {
+public class Block {
 	
 	public String hash;
 	public String previousHash;
@@ -10,7 +10,7 @@ public class block {
 	private long timeStamp;
 	
 	//Constructor
-	public block(String data, String previousHash) {
+	public Block(String data, String previousHash) {
 		this.data = data;
 		this.previousHash = previousHash;
 		this.timeStamp = new Date().getTime();
